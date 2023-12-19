@@ -1,0 +1,134 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+  color: #009fdc;
+}
+
+::selection {
+  background-color: #009fdc;
+}
+
+.btn {
+  background-color: #009edc78;
+  color: black;
+  font-family: 'Noto Sans Limbu', sans-serif;
+  border-radius: 0;
+}
+
+.btn-xl {
+  padding: 20px 40px;
+  font-size: 25px;
+  border-radius: 10px;
+  border-radius: 0;
+}
+ .btn:hover {
+  text-decoration: underline;
+ }
+
+.episode {
+  font-family: 'Noto Sans Limbu', sans-serif;
+}
+
+.episode:hover {
+  cursor: pointer;
+  color: #009fdc;
+}
+
+.btn:hover {
+  background-color: #009fdc;
+  color: black;
+}
+
+.main-container {
+  margin: none;
+  background-image: url('/public/centrepic.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 4em 4em white inset;
+}
+
+.fenfc {
+  display: none;
+  height: 12em;
+  width: auto;
+}
+
+.un {
+  display: none;
+  height: 12em;
+  width: auto;
+}
+
+.dill {
+  height: 12em;
+  width: auto;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.sub-header {
+  font-family: 'Noto Sans Limbu', sans-serif;
+  padding-bottom: 2em;
+}
+
+p {
+  font-size: 1.5em;
+  margin: none;
+}
+
+.FNCCEC {
+  width: 45%;
+  height: auto;
+  margin-bottom: 2em;
+}
+
+.NIB {
+  width: 65%;
+  height: auto;
+  margin-bottom: 2em;
+}
+
+.OFIFC {
+  width: 55%;
+  height: auto;
+  margin-bottom: 2em;
+}
+
+.Canada {
+  width: 30%;
+  height: auto;
+  margin-bottom: 2em;
+}
+
+@media (min-width: 768px) {
+  p {
+    margin: 0 7em 1.2em 7em;
+  }
+
+  .main-container {
+    margin: 0 8vw 0 8vw;
+  }
+
+  .fenfc {
+    padding: 1em 0 1em .5em;
+    height: 12em;
+    width: auto;
+    margin-left: 5em;
+    display: inline-flex;
+  }
+
+  .un {
+    padding: 3em 1.25em 1em 0;
+    height: 12em;
+    width: auto;
+    margin-right: 4em;
+    display: inline-flex;
+  }
+}
